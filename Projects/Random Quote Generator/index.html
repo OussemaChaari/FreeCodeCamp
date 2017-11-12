@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Glegoo|Oswald:700|Bitter|Dancing+Script" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <div class="container-fluid">
+        <h1>Quote Generator</h1>
+        <div class="container">
+            <button class="btn btn-primary" id="btnQuote">Change quote</button>
+        </div>
+        <div class="quote-box">
+            <p id="quote"><span class="dbleQuotes">&#8220;</span><span id="quoteTxt">
+            Press the button to get Started!!</span><span class="dbleQuotes">&#8221;</span>
+            </p>
+            <p id="cite"><span>-</span>
+                <span id="author"></span>
+            </p>
+        </div>
+    </div>
+    <p id="addition" class="hide">Read more About <span id="aut"></span> at <a href="#" id="authorLink"> Wikipedia </a></p>
+    <div id="social">
+        <!--after two nights working turns out I need a valid appId to use the "share" feature. if you have an appId u can just copy this and the sdk +the js code and the css styling (all commented)-->
+        <!-- <button type="button" class="fa fa-facebook" id="fb-btn"></button> -->
+        <button type="button" class="fa fa-twitter" id="twitter-btn" content="Share on Twitter"></button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

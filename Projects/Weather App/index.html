@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/switchery/0.8.2/switchery.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1>L<i class="fa fa-sun-o" aria-hidden=true></i>cal Weather</h1>
+        <div id="hideLater">
+            <p class="lead"><strong>Let me </strong> <button class="btn btn-warning" id="locate1">Locate</button></p>
+
+
+            <div id="line">
+                <span id="or">OR</span>
+            </div>
+
+            <p class="lead"><strong>Enter your longitude &amp; latitude </strong><span id="comment">(if you know them for some reason)</span></p>
+            <form class="form-inline">
+                <div class="col-lg-2"></div>
+                <input type="text" class="form-control col-lg-3" id="longitude" placeholder="Longitude ex: 73">
+                <div class="col-lg-2"></div>
+                <input type="text" class="form-control col-lg-3" id="latitude" placeholder="Latitude ex: 40">
+
+            </form>
+
+            <div class="btnwrapper">
+                <button class="btn btn-warning" id="locate3">Locate</button>
+            </div>
+
+        </div>
+
+        <div id="secondPage" class="hidden">
+            <div id="toggle">
+                <span id="state">Metric</span>
+                <input type="checkbox" id="switch">
+            </div>
+            <p id="cityIdentity"><span id="cityName" class="font-weight-bold"></span>, <span id="country"></span></p>
+
+            <div id="weatherIcons">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-center " id="wind">
+                        <p class="wi wi-strong-wind text-center bigIcon big"></p>
+                        <p class="bigValue">Speed: <span id="windSpeed" class="font-weight-bold"></span> <span id="windUnit">meter/sec</span></p>
+                        <p class="bigValue">Direction: <span id="direction" class="font-weight-bold"></span> <span>°</span></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <p class="wi bigIcon" id="weatherIcon"></p>
+                        <div class="col-lg-1 col-md-1"></div>
+                        <p class="bigIcon big"><span id="degree" class="font-weight-bold"></span>° <span id="degreeUnit">C</span></p>
+                        <p id="Desc" class="font-weight-bold"></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center smallIcon" id="wind">
+                        <p class="wi wi-barometer text-center"></p>
+                        <p class="smallValue">Pressure: <span id="press" class="font-weight-bold"></span> hPa</p>
+                        <p class="wi wi-humidity text-center"></p>
+                        <p class="smallValue">Humidity: <span id="hum" class="font-weight-bold"></span> %</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer>made by <a href="https://www.facebook.com/Hikaary" target="_blank">Oussema</a></footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/switchery/0.8.2/switchery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

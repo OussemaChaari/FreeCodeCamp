@@ -1,0 +1,163 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/light_honeycomb.png) repeat;
+}
+
+table {
+    font-family: "Merienda One";
+    font-size: 400%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+
+}
+
+#question p {
+    color: white;
+    font-family: "Contrail One", Arial, sans-serif;
+    padding: 60px;
+    font-size: 200%;
+    font-style: italic;
+}
+
+button {
+    font-family: "Merienda One";
+    font-family: 200%;
+    background: none;
+    border: none;
+    margin: 30px;
+    padding: 10px;
+    border: 3px dotted transparent;
+}
+
+button:hover {
+    border: 3px dotted white;
+    border-radius: 10px;
+}
+
+#pS {
+    background: rgba(41, 128, 185, 1.0);
+    color: white;
+    font-family: "Contrail One";
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+}
+
+#cS {
+    background: rgba(211, 84, 0, 1.0);
+    color: white;
+    font-family: "Contrail One";
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+}
+
+#dR {
+    background: rgba(39, 174, 96, 1.0);
+    font-family: "Contrail One";
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+}
+
+#reset {
+    background: rgba(192, 57, 43, 1.0);
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-style: italic;
+    margin: 5px;
+    padding: 3px 10px;
+    border: 1px solid transparent;
+}
+
+#reset:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#scoreBoard {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+#scoreBoard p,
+#scoreBoard button {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.X {
+    color: #003171;
+    font-size: 200%
+}
+
+.modal-title {
+    font-family: "Merienda One";
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 20px auto 40px;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.O {
+    color: #8F1D21;
+    font-size: 200%;
+}
+
+#o {
+    color: #8F1D21;
+    font-family: "Merienda One"
+}
+
+.hidden {
+    display: none;
+}
+
+.gameBoard {
+    background: radial-gradient(ellipse at center, rgba(104, 133, 81, 1) 0%, rgba(104, 133, 81, 1) 1%, rgba(71, 100, 48, 1) 47%, rgba(33, 63, 9, 1) 100%);
+    height: 510px;
+    width: 510px;
+    display: inline-block;
+    margin: 0 auto;
+    border: 30px solid #CA6924;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+tr,
+td {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+tr {
+    height: 450px;
+    height: 150px;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+}
+
+.bordered {
+    border-bottom: 10px solid rgba(0, 0, 0, 0.4);
+}
+
+.bordered-right {
+    border-right: 10px solid rgba(0, 0, 0, 0.4);
+}

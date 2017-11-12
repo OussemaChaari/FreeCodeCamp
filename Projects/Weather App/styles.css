@@ -1,0 +1,143 @@
+html,
+body {
+    font-size: 27px;
+    height: 100%;
+}
+
+#toggle {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.lead {
+    margin-top: 3em;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(44, 62, 80, 1.0);
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#degreeUnit {
+    font-size: 0.777em;
+}
+
+p {
+    font-size: 1em;
+    margin-top: 1.3em;
+}
+
+
+.smallIcon {
+    font-size: 1em;
+    margin: .2em 0 0 0;
+    padding-bottom: 0;
+
+}
+
+.bigIcon {
+    font-size: 4em;
+    margin: 0.4em 0 0;
+    padding-bottom: 0;
+}
+
+#city {
+    font-size: 1.333em;
+    text-align: center;
+}
+
+#Desc {
+    font-size: 1.333em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.bigValue {
+    margin: 0 0 0.777em;
+}
+
+#wind {
+    top: -1.5em;
+}
+
+#degree {
+    font-size: 0.7em;
+}
+
+.smallValue {
+    font-size: 0.777em;
+    margin: 0;
+}
+
+.big {
+    position: relative;
+    top: -0.4em;
+    font-size: 4em;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 1.1em;
+    margin: 0.54em 0;
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+
+#line {
+    width: 80%;
+    height: 20px;
+    border-bottom: solid 1px #252525;
+    text-align: center;
+    margin: 1.3em auto 0;
+}
+
+#or {
+    font-weight: bold;
+    padding: 0 20px;
+    background: rgba(44, 62, 80, 1.0);
+    margin: 3em 0;
+}
+
+#cityIdentity,
+#gobtn,
+#latitude,
+#longitude {
+    text-align: center;
+}
+
+#comment {
+    font-size: 0.707em;
+}
+
+
+.btnwrapper {
+    text-align: center;
+    margin-top: 0.707em;
+    margin-bottom: 1.3em;
+}
+
+footer {
+    font-size: 0.5em;
+    color: grey;
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

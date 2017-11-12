@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:700|Mukta|Playfair+Display" rel="stylesheet">
+    <div class="container">
+        <header>
+            <h1 id="wikiTitle">Wikipedia's Search</h1>
+            <a href="https://www.wikipedia.org/" target="_blank"><img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Nuvola_wikipedia_icon.png" width="30%" alt="Wikipedia's website"  id="wikiLogo" > </a>
+        </header>
+        <div class="row">
+            <div class="col-sm-1 cold-md-3 col-lg-3"></div>
+            <div class="col-sm-11 col-md-6 col-lg-6">
+                <div class="input-group" id="inputGroup">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search for...">
+                    <span class="input-group-btn">
+        <button class="btn btn-warning" type="button" id="searchBtn"><i class="fa fa-search"> </i> search</button>
+      </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1 cold-md-3 col-lg-3"></div>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <div class="btnWrapper" id="btnWrapper">
+                <button class="btn btn-primary" id="btn">Random search <i class="fa fa-random"></i></button>
+            </div>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="hidden" id="results">
+            <div class="row">
+                <div class="col-md-1 col-lg-1"></div>
+                <p id="searchedTerm"></p>
+            </div>
+            <div class="row">
+                <div class="col-md-1 col-lg-1"></div>
+                <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+                    <ul id="resultList">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

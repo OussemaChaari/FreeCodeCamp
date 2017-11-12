@@ -1,0 +1,107 @@
+body,
+html {
+    height: 100%;
+    font-size: 20px;
+    background-color: #4B367C
+}
+
+span {
+    padding-left: 1em;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 1.07em;
+    font-size: 3.157em;
+}
+
+.btn-success {
+    background-color: #5B4887;
+}
+
+h2 {
+    padding: 10px 0 0 10px;
+}
+
+#windowContainer {
+    background-color: #C3C9E9;
+}
+
+.streamerSuccess {
+    background-color: #95d095;
+}
+
+.streamerFail {
+    background-color: #e28683;
+}
+
+#streamerContainer {
+    height: 40px;
+    margin: 40px auto;
+
+}
+
+li {
+    padding: 0 10px;
+}
+
+img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.input-group {
+    padding: 1em;
+}
+
+p {
+    padding: 0.3em;
+    margin: 0.6em auto;
+    height: 60px;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.snSuccess {
+    color: green;
+}
+
+#error {
+    display: block;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.snFail {
+    color: red;
+}
+
+.sn:hover {
+    text-decoration: underline
+}
+
+#description {
+    font-style: italic;
+    font-size: 0.707em;
+}
+
+#streamersList {
+    padding-left: 0;
+}

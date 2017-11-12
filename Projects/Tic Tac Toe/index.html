@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+    <div class="container-fluid">
+        <h1>Tic Tac T<span id="o">O</span>e</h1>
+        <div id="scoreBoard">
+            <p id="pS">Your Score: <span id="playerScore">0</span></p>
+            <p id="cS">Computer Score: <span id="computerScore">0</span></p>
+            <p id="dR">Draw(s): <span id="ties">0</span></p>
+            <button id="reset">Restart</button>
+        </div>
+        <div class="modal fade " id="myModal">
+            <div class="modal-dialog vertical-align-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title">GOOD JOB !!</p>
+                        <button type="button" class="close" data-dismiss="modal" id="close"><span>&times;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gameBoard">
+            <table class="hidden" id="gameTab">
+                <tr class="bordered">
+                    <td class="bordered-right gameCase" id="0-0"> </td>
+                    <td class="bordered-right gameCase" id="0-1"> </td>
+                    <td class="gameCase" id="0-2"> </td>
+                </tr>
+                <tr class="bordered">
+                    <td class="bordered-right gameCase" id="1-0"> </td>
+                    <td class="bordered-right gameCase" id="1-1"> </td>
+                    <td class="gameCase" id="1-2"> </td>
+                </tr>
+                <tr>
+                    <td class="bordered-right gameCase" id="2-0"> </td>
+                    <td class="bordered-right gameCase" id="2-1"> </td>
+                    <td class="gameCase" id="2-2"> </td>
+                </tr>
+            </table>
+            <div class="" id="question">
+                <p>Which One do you want to play?</p>
+                <button class="X">X</button>
+                <button class="O">O</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
+    <div class="container-fluid">
+        <div id="gameBoard">
+            <div class="gameBtn" id="green"></div>
+            <div class="gameBtn" id="red"></div>
+            <div class="gameBtn" id="yellow"></div>
+            <div class="gameBtn" id="blue"></div>
+            <div id="legend">
+                <div class="row">
+                    <p id="count"></p>
+                </div>
+                <div class="inline">
+                    <button class="pointer" id="start"></button>
+                    <p id="startTxt">re/START</p>
+                </div>
+                <div class="inline">
+                    <button class="pointer strict" id="strict"></button>
+                    <p id="strictTxt">Strict</p>
+                </div>
+                <div class="row">
+                    <div id="switchContainer">
+                        <span>Off</span>
+                        <label class="text-center">
+          <input type="checkbox" id="onSwitch">
+          <div id="slider"></div>
+            </label>
+                        <span>on</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 id="finish"></h2>
+        <footer>
+            <h4>Patterns: <a href="https://patterninja.com/" target="_blank">Pattern Ninja</a></h4>
+            <h4>Background: <a href="http://backgroundhost.com/" target="_blank">Background Host</a></h4>
+            <h4>Made By : <a href="https://www.facebook.com/Hikaary" target="_blank">Oussema Chaari</a></h4>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+html,
+body {
+    height: 100%;
+    background: linear-gradient(to top right, #ff6666, #3333cc)
+}
+
+h1 {
+
+    margin: 20px 0 40px;
+    color: white;
+    font-family: "Orbitron", Arial;
+}
+
+
+.btn,
+btn:link,
+btn:visited {
+    width: 50px;
+    margin: 5px 5px;
+    padding: .9rem .9rem;
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    border: 1px solid black;
+    box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.98) inset;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.btn:active {
+    background: #41418b;
+    box-shadow: none;
+    position: relative;
+    top: 1px;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-pls {
+    width: 115px;
+    background: #6666ff;
+}
+
+.btn-pr {
+    background: #d8224d;
+}
+
+.btn-sec {
+    background: #6666ff;
+}
+
+.btn-ter {
+    background: #333399
+}
+
+.output {
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 15px auto;
+    width: 270px;
+    background: linear-gradient(to bottom, #33FF99, #99FFCC);
+    border: 1px solid black;
+    font-family: Orbitron;
+    padding: 5px 5px;
+    ;
+    color: #2f343d;
+    text-align: right;
+}
+
+.calculator-top,
+.calculator-bottom {
+    width: 350px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.calculator-top {
+    background: linear-gradient(to top, #674172, #9d6dab);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px -8px 38px -4px rgba(0, 0, 0, 0.75);
+}
+
+.calculator-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #674172;
+    box-shadow: 0px 8px 38px -4px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+    text-align: center;
+    font-size: 90%;
+    margin-top: 40px;
+    color: white;
+}

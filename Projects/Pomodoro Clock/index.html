@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <audio src="https://notificationsounds.com/soundfiles/8c19f571e251e61cb8dd3612f26d5ecf/file-sounds-762-hurry.mp3" preload="auto" id="endSess"></audio>
+    <audio src="https://notificationsounds.com/soundfiles/53fde96fcc4b4ce72d7739202324cd49/file-sounds-882-solemn.mp3" preload="auto" id="endBreak"></audio>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <div class="container">
+        <h1 class="text-center">Pomodoro Clock</h1>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <h3 class="text-center">Break Length</h3>
+                <div class="input-group">
+                    <span class="input-group-btn">
+              <button class="btn btn-secondary"id="subbr"><strong>-</strong></button></span>
+                    <input type="text" class="form-control" value="5" id="break" disabled>
+                    <span class="input-group-btn"><button class="btn btn-secondary" id="plsbr"><strong>+</strong></button></span>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <h3 class="text-center">Session Length</h3>
+                <div class="input-group">
+                    <span class="input-group-btn">
+              <button class="btn btn-secondary"id="subsess"><strong>-</strong></button></span>
+                    <input type="text" class="form-control" value="25" id="session" disabled>
+                    <span class="input-group-btn">
+              <button class="btn btn-secondary"id="plssess"><strong>+</strong></button></span>
+                </div>
+            </div>
+        </div>
+        <div id="time" class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <p id="hrs">00</p>
+            </div>
+            <div class="col-md-1">
+                <p>:</p>
+            </div>
+            <div class="col-md-2">
+                <p id="mins">00</p>
+            </div>
+            <div class="col-md-1">
+                <p>:</p>
+            </div>
+            <div class="col-md-2">
+                <p id="secs">00</p>
+            </div>
+        </div>
+        <p class="text-center" id="comment">Let's Work !!</p>
+    </div>
+    <!-- container -->
+    <div class="commands">
+        <button class="btn btn-default btn-lg" id="start">Start!</button>
+        <button class="btn btn-default btn-lg" id="stop">Stop!</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
